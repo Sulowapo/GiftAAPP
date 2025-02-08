@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/amigo" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="142dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="17dp"
+        android:layout_toEndOf="@id/imageView"
+        android:text="Friend Name"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonSendGift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar regalo"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+</RelativeLayout>

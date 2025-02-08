@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ProfileFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonLogOut"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:textAllCaps="false"
+        android:textColor="#64ba69"
+        android:textSize="18sp"
+        app:backgroundTint="#f8f8f8"
+        app:cornerRadius="12dp"
+        app:icon="@drawable/ic_logout"
+        app:iconGravity="start"
+        app:iconPadding="30dp"
+        app:iconTint="#64ba69"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Log Out" />
+</androidx.constraintlayout.widget.ConstraintLayout>

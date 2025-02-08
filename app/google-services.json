@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "561797551472",
+    "project_id": "giftapp-bc19a",
+    "storage_bucket": "giftapp-bc19a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561797551472:android:8f5d96b9a53e9379326bb5",
+        "android_client_info": {
+          "package_name": "com.ahmetozaydin.ecommerceapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo92yqPtvw_8dJyOueDUcvPgIweZPaqSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561797551472:android:30d228551bd5f58e326bb5",
+        "android_client_info": {
+          "package_name": "com.ahmetozaydin.giftapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo92yqPtvw_8dJyOueDUcvPgIweZPaqSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561797551472:android:1a0ecad3b17757a8326bb5",
+        "android_client_info": {
+          "package_name": "com.itson.giftapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo92yqPtvw_8dJyOueDUcvPgIweZPaqSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
